@@ -1,0 +1,64 @@
+-----------------Program id:2-------------------
+
+ExeStack:
+ var_f= 0  ;  readFile [exp= var_f , var_name=var_c] ; Print( var_c )  
+closeRFile [exp= var_f ]
+
+SymTable:
+
+Out:
+
+FileTable:
+ 
+
+heap: 
+
+-----------------Program id:2-------------------
+
+ExeStack:
+var_f= 0 
+ readFile [exp= var_f , var_name=var_c] ; Print( var_c ) 
+closeRFile [exp= var_f ]
+
+SymTable:
+
+Out:
+
+FileTable:
+ 
+
+heap: 
+
+-----------------Program id:2-------------------
+
+ExeStack:
+ readFile [exp= var_f , var_name=var_c] ; Print( var_c ) 
+closeRFile [exp= var_f ]
+
+SymTable:
+var_f --> 0
+
+Out:
+
+FileTable:
+ 
+
+heap: 
+
+-----------------Program id:2-------------------
+
+ExeStack:
+readFile [exp= var_f , var_name=var_c]
+Print( var_c )
+closeRFile [exp= var_f ]
+
+SymTable:
+var_f --> 0
+
+Out:
+
+FileTable:
+ 
+
+heap: 
+

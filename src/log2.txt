@@ -1,0 +1,223 @@
+-----------------Program id:1-------------------
+
+ExeStack:
+ var_f= 0  ;  openRFile(var_f,C:\Users\Andrei D\Documents\Eclipse\MyInterpreter\src\test.in) ;  readFile [exp= var_f , var_name=var_c] ; Print( var_c )   
+
+SymTable:
+
+Out:
+
+FileTable:
+ 
+
+heap: 
+
+-----------------Program id:1-------------------
+
+ExeStack:
+var_f= 0 
+ openRFile(var_f,C:\Users\Andrei D\Documents\Eclipse\MyInterpreter\src\test.in) ;  readFile [exp= var_f , var_name=var_c] ; Print( var_c )  
+
+SymTable:
+
+Out:
+
+FileTable:
+ 
+
+heap: 
+
+-----------------Program id:1-------------------
+
+ExeStack:
+var_f= 0 
+ openRFile(var_f,C:\Users\Andrei D\Documents\Eclipse\MyInterpreter\src\test.in) ;  readFile [exp= var_f , var_name=var_c] ; Print( var_c )  
+
+SymTable:
+
+Out:
+
+FileTable:
+ 
+
+heap: 
+
+-----------------Program id:1-------------------
+
+ExeStack:
+ openRFile(var_f,C:\Users\Andrei D\Documents\Eclipse\MyInterpreter\src\test.in) ;  readFile [exp= var_f , var_name=var_c] ; Print( var_c )  
+
+SymTable:
+var_f --> 0
+
+Out:
+
+FileTable:
+ 
+
+heap: 
+
+-----------------Program id:1-------------------
+
+ExeStack:
+ openRFile(var_f,C:\Users\Andrei D\Documents\Eclipse\MyInterpreter\src\test.in) ;  readFile [exp= var_f , var_name=var_c] ; Print( var_c )  
+
+SymTable:
+var_f --> 0
+
+Out:
+
+FileTable:
+ 
+
+heap: 
+
+-----------------Program id:1-------------------
+
+ExeStack:
+openRFile(var_f,C:\Users\Andrei D\Documents\Eclipse\MyInterpreter\src\test.in)
+ readFile [exp= var_f , var_name=var_c] ; Print( var_c ) 
+
+SymTable:
+var_f --> 0
+
+Out:
+
+FileTable:
+ 
+
+heap: 
+
+-----------------Program id:1-------------------
+
+ExeStack:
+openRFile(var_f,C:\Users\Andrei D\Documents\Eclipse\MyInterpreter\src\test.in)
+ readFile [exp= var_f , var_name=var_c] ; Print( var_c ) 
+
+SymTable:
+var_f --> 0
+
+Out:
+
+FileTable:
+ 
+
+heap: 
+
+-----------------Program id:1-------------------
+
+ExeStack:
+ readFile [exp= var_f , var_name=var_c] ; Print( var_c ) 
+
+SymTable:
+var_f --> 1
+
+Out:
+
+FileTable:
+ 1 --> Pair( C:\Users\Andrei D\Documents\Eclipse\MyInterpreter\src\test.in, java.io.BufferedReader@34c45dca)
+
+
+heap: 
+
+-----------------Program id:1-------------------
+
+ExeStack:
+ readFile [exp= var_f , var_name=var_c] ; Print( var_c ) 
+
+SymTable:
+var_f --> 1
+
+Out:
+
+FileTable:
+ 1 --> Pair( C:\Users\Andrei D\Documents\Eclipse\MyInterpreter\src\test.in, java.io.BufferedReader@34c45dca)
+
+
+heap: 
+
+-----------------Program id:1-------------------
+
+ExeStack:
+readFile [exp= var_f , var_name=var_c]
+Print( var_c )
+
+SymTable:
+var_f --> 1
+
+Out:
+
+FileTable:
+ 1 --> Pair( C:\Users\Andrei D\Documents\Eclipse\MyInterpreter\src\test.in, java.io.BufferedReader@34c45dca)
+
+
+heap: 
+
+-----------------Program id:1-------------------
+
+ExeStack:
+readFile [exp= var_f , var_name=var_c]
+Print( var_c )
+
+SymTable:
+var_f --> 1
+
+Out:
+
+FileTable:
+ 1 --> Pair( C:\Users\Andrei D\Documents\Eclipse\MyInterpreter\src\test.in, java.io.BufferedReader@34c45dca)
+
+
+heap: 
+
+-----------------Program id:1-------------------
+
+ExeStack:
+Print( var_c )
+
+SymTable:
+var_f --> 1
+var_c --> 15
+
+Out:
+
+FileTable:
+ 1 --> Pair( C:\Users\Andrei D\Documents\Eclipse\MyInterpreter\src\test.in, java.io.BufferedReader@34c45dca)
+
+
+heap: 
+
+-----------------Program id:1-------------------
+
+ExeStack:
+Print( var_c )
+
+SymTable:
+var_f --> 1
+var_c --> 15
+
+Out:
+
+FileTable:
+ 1 --> Pair( C:\Users\Andrei D\Documents\Eclipse\MyInterpreter\src\test.in, java.io.BufferedReader@34c45dca)
+
+
+heap: 
+
+-----------------Program id:1-------------------
+
+ExeStack:
+
+SymTable:
+var_f --> 1
+var_c --> 15
+
+Out:
+15 
+
+FileTable:
+ 1 --> Pair( C:\Users\Andrei D\Documents\Eclipse\MyInterpreter\src\test.in, java.io.BufferedReader@34c45dca)
+
+
+heap: 
+

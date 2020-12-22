@@ -1,0 +1,430 @@
+-----------------Program id:11-------------------
+
+ExeStack:
+ New ( v1,  1 ) ;  newSemaphore ( cnt,  rH(v1) ) ;  fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    ) ; fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    )   
+
+SymTable:
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+
+heap: 
+
+-----------------Program id:11-------------------
+
+ExeStack:
+New ( v1,  1 )
+ newSemaphore ( cnt,  rH(v1) ) ;  fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    ) ; fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    )  
+
+SymTable:
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+
+heap: 
+
+-----------------Program id:11-------------------
+
+ExeStack:
+New ( v1,  1 )
+ newSemaphore ( cnt,  rH(v1) ) ;  fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    ) ; fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    )  
+
+SymTable:
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+
+heap: 
+
+-----------------Program id:11-------------------
+
+ExeStack:
+ newSemaphore ( cnt,  rH(v1) ) ;  fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    ) ; fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    )  
+
+SymTable:
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+
+-----------------Program id:11-------------------
+
+ExeStack:
+ newSemaphore ( cnt,  rH(v1) ) ;  fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    ) ; fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    )  
+
+SymTable:
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+
+-----------------Program id:11-------------------
+
+ExeStack:
+newSemaphore ( cnt,  rH(v1) )
+ fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    ) ; fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    ) 
+
+SymTable:
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+
+-----------------Program id:11-------------------
+
+ExeStack:
+newSemaphore ( cnt,  rH(v1) )
+ fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    ) ; fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    ) 
+
+SymTable:
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+
+-----------------Program id:11-------------------
+
+ExeStack:
+ fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    ) ; fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    ) 
+
+SymTable:
+cnt --> 1
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+1 --> Pair( 1, [])
+
+-----------------Program id:11-------------------
+
+ExeStack:
+ fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    ) ; fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    ) 
+
+SymTable:
+cnt --> 1
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+1 --> Pair( 1, [])
+
+-----------------Program id:11-------------------
+
+ExeStack:
+fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    )
+fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    )
+
+SymTable:
+cnt --> 1
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+1 --> Pair( 1, [])
+
+-----------------Program id:11-------------------
+
+ExeStack:
+fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    )
+fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    )
+
+SymTable:
+cnt --> 1
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+1 --> Pair( 1, [])
+
+-----------------Program id:11-------------------
+
+ExeStack:
+fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    )
+
+SymTable:
+cnt --> 1
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+1 --> Pair( 1, [])
+
+-----------------Program id:12-------------------
+
+ExeStack:
+ aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)   
+
+SymTable:
+cnt --> 1
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+1 --> Pair( 1, [])
+
+-----------------Program id:11-------------------
+
+ExeStack:
+fork (  aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)    )
+
+SymTable:
+cnt --> 1
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+1 --> Pair( 1, [])
+
+-----------------Program id:12-------------------
+
+ExeStack:
+ aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)   
+
+SymTable:
+cnt --> 1
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+1 --> Pair( 1, [])
+
+-----------------Program id:11-------------------
+
+ExeStack:
+
+SymTable:
+cnt --> 1
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+1 --> Pair( 1, [])
+
+-----------------Program id:12-------------------
+
+ExeStack:
+aquire(cnt)
+  wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)  
+
+SymTable:
+cnt --> 1
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+1 --> Pair( 1, [])
+
+-----------------Program id:13-------------------
+
+ExeStack:
+ aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)   
+
+SymTable:
+cnt --> 1
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+1 --> Pair( 1, [])
+
+-----------------Program id:12-------------------
+
+ExeStack:
+aquire(cnt)
+  wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)  
+
+SymTable:
+cnt --> 1
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+1 --> Pair( 1, [])
+
+-----------------Program id:13-------------------
+
+ExeStack:
+ aquire(cnt) ;   wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)   
+
+SymTable:
+cnt --> 1
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+1 --> Pair( 1, [])
+
+-----------------Program id:12-------------------
+
+ExeStack:
+  wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)  
+
+SymTable:
+cnt --> 1
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+1 --> Pair( 1, [12 
+])
+
+-----------------Program id:13-------------------
+
+ExeStack:
+aquire(cnt)
+  wH(v1 ,  rH(v1) * 10 )  ;  Print( rH(v1) ) ; release (cnt)  
+
+SymTable:
+cnt --> 1
+v1 --> 1
+
+Out:
+[]
+FileTable:
+ 
+
+heap: 
+1 --> 1
+
+heap: 
+1 --> Pair( 1, [12 
+])
+
